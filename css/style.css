@@ -99,7 +99,23 @@ img {
 }
 .computer {
 	position: absolute;
+	top: 1rem;
+	left: 0.37rem;
 	width: 1.69rem;
 	height: 1.54rem;
-
+	background-image: url("../images/computer.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+}
+.computer .wifi_01 {
+	position: absolute;
+	top: 0.44rem;
+	left: 0.45rem;
+	width: 0.49rem;
+	height: 0.38rem;
+	background-image: url("../images/wifi-5.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
 }
