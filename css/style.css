@@ -45,7 +45,8 @@ img {
 	text-align: center;
 	margin-top: 0.6rem;
 }
-.q-btn {
+.q-btn,
+.l-btn {
 	display: block;
 	width: 4.15rem;
 	height: 1.33rem;
@@ -107,6 +108,8 @@ img {
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: 100%;
+	animation-duration: 3s;
+	-webkit-animation-duration: 3s; /* Safari 和 Chrome */
 }
 .computer .wifi_01 {
 	position: absolute;
@@ -118,4 +121,127 @@ img {
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: 100%;
+}
+.icon_01 {
+	position: absolute;
+	top: 0.72rem;
+	left: 2.28rem;
+	width: 0.29rem;
+	height: 0.29rem;
+	background-image: url("../images/icon_01.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+	animation-duration: 3s;
+	-webkit-animation-duration: 3s;
+}
+.clock {
+	position: absolute;
+	top: -0.2rem;
+	right: 1.67rem;
+	width: 0.96rem;
+	height: 0.96rem;
+	background-image: url("../images/clock.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+}
+.clock .solid {
+	position: absolute;
+	top: 0;
+	right: 50%;
+	width: 0.05rem;
+	height: 0.96rem;
+	background-image: url("../images/solid.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% 50%;
+	animation:mymove infinite linear;
+	animation-duration:2s;
+	-webkit-animation:mymove infinite linear;
+	-webkit-animation-duration:2s;
+}
+@keyframes mymove
+{
+from {
+	transform: rotate(0);
+	-webkit-transform: rotate(0);
+}
+to {
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+}
+}
+
+@-webkit-keyframes mymove
+{
+from {
+	transform: rotate(0);
+	-webkit-transform: rotate(0);
+}
+to {
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+}
+}
+.icon_02 {
+	position: absolute;
+	top: 0.61rem;
+	right: 3.18rem;
+	width: 1.09rem;
+	height: 1.33rem;
+	background-image: url("../images/icon_02.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+	animation-duration: 3s;
+	-webkit-animation-duration: 3s;
+	animation-timing-function:linear;
+	-webkit-animation-timing-function:linear;
+}
+.wifi {
+	position: absolute;
+	top: 1.14rem;
+	right: 0.84rem;
+	width: 1.12rem;
+	height: 0.87rem;
+	background-image: url("../images/wifi.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100%;
+	animation:huxi infinite linear;
+	animation-duration:3s;
+	-webkit-animation:huxi infinite linear;
+	-webkit-animation-duration:3s;
+}
+@keyframes huxi
+{
+0% {
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+50% {
+	transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+}
+100% {
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+}
+
+@-webkit-keyframes mymove
+{
+0% {
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+50% {
+	transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+}
+100% {
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
 }
