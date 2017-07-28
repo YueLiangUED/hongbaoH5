@@ -296,7 +296,7 @@ input.form-input {
 .form-input.idCard {
 	margin-bottom: 0.2rem;
 }
-.chu_01 {
+/*.chu_01 {
 	animation:chu_01 linear;
 	animation-duration:1s;
 	-webkit-animation:chu_01 linear;
@@ -329,8 +329,8 @@ input.form-input {
 100% {
 	bottom: 0rem;
 }
-}
-.chu_02 {
+}*/
+/*.chu_02 {
 	animation:chu_02 linear;
 	animation-duration:1s;
 	-webkit-animation:chu_02 linear;
@@ -353,8 +353,8 @@ input.form-input {
 100% {
 	top: 0rem;
 }
-}
-.chu_03 {
+}*/
+/*.chu_03 {
 	animation:chu_03 linear;
 	animation-duration:1s;
 	-webkit-animation:chu_03 linear;
@@ -377,8 +377,8 @@ input.form-input {
 100% {
 	top: 4.56rem;
 }
-}
-.chu_04 {
+}*/
+/*.chu_04 {
 	animation:chu_04 linear;
 	animation-duration:1s;
 	-webkit-animation:chu_04 linear;
@@ -401,7 +401,7 @@ input.form-input {
 100% {
 	top: 6.21rem;
 }
-}
+}*/
 .chu_05 {
 	animation:chu_05 linear;
 	animation-duration:1s;
@@ -411,7 +411,7 @@ input.form-input {
 @-webkit-keyframes chu_05
 {
 0% {
-	top: 4.8rem;
+	top: 2.3rem;
 }
 100% {
 	top: 0rem;
@@ -420,7 +420,7 @@ input.form-input {
 @keyframes chu_05
 {
 0% {
-	top: 4.8rem;
+	top: 2.3rem;
 }
 100% {
 	top: 0rem;
