@@ -24,24 +24,19 @@ $(document).ready(function(){
         $mask.hide();
     }
     $('.gz-text').on('click',function () {
-    	$('.pop').css({
-    		'transform': 'translateY(0)',
-			'-webkit-transform': 'translatey(0)'
-    	});
+    	$('.pop').show();
+    	$('.pop').removeClass('animated bounceOutUp');
+    	$('.pop').addClass('animated bounceInDown');
     	showMask();
     });
     $('.pop-close').on('click', function () {
-    	$('.pop').css({
-    		'transform': 'translateY(-9.6rem);',
-			'-webkit-transform': 'translatey(-9.6rem)'
-    	});
+    	$('.pop').removeClass('animated bounceInDown');
+    	$('.pop').addClass('animated bounceOutUp');
     	hideMask();
     });
     $('.pop').swipeUp(function () {
-    	$('.pop').css({
-    		'transform': 'translateY(-10rem);',
-			'-webkit-transform': 'translatey(-10rem)'
-    	});
+    	$('.pop').removeClass('animated bounceInDown');
+    	$('.pop').addClass('animated bounceOutUp');
     	hideMask();
     });
 });
