@@ -39,4 +39,13 @@ $(document).ready(function(){
     	$('.pop').addClass('animated bounceOutUp');
     	hideMask();
     });
+    $('.l-btn').on('click', function () {
+    	if ($('.form-input').val() == '') {
+            alert('请填写个人信息！');
+            return;
+        }
+    	$('.gz-text, .l-btn, .tip-2, .form-input').hide();
+    	$('.goCard').show();
+    	$('.hb-bg').addClass('act');
+    });
 });

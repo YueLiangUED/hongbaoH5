@@ -245,3 +245,207 @@ to {
 	-webkit-transform: scale(1);
 }
 }
+.icon_01.star2 {
+	top: 2.5rem;
+	left: 7.32rem;
+}
+.hb-bg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 9.75rem;
+	transition: .8s;
+	-webkit-transition: .8s;
+}
+.hb-bg .gai {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 6.58rem;
+	margin-left: -3.29rem;
+}
+.hb-bg .quan {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 5.76rem;
+	margin-left: -2.88rem;
+	transition: .8s;
+	-webkit-transition: .8s;
+}
+.hb-bg .hg-img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+input.form-input {
+	display: block;
+	height: 0.76rem;
+	width: 4.26rem;
+	margin: 0 auto;
+	background-color: #fff;
+	border: none;
+	padding-left: 0.25rem;
+	box-sizing: border-box;
+}
+.form-input.name {
+	margin-bottom: 0.9rem;
+}
+.form-input.idCard {
+	margin-bottom: 0.2rem;
+}
+.chu_01 {
+	animation:chu_01 linear;
+	animation-duration:1s;
+	-webkit-animation:chu_01 linear;
+	-webkit-animation-duration:1s;
+}
+@keyframes chu_01
+{
+0% {
+	bottom: -2.5rem;
+}
+100% {
+	bottom: -0rem;
+}
+}
+
+@-webkit-keyframes chu_01
+{
+0% {
+	bottom: -2.5rem;
+}
+100% {
+	bottom: 0rem;
+}
+}
+@keyframes chu_01
+{
+0% {
+	bottom: -2.5rem;
+}
+100% {
+	bottom: 0rem;
+}
+}
+.chu_02 {
+	animation:chu_02 linear;
+	animation-duration:1s;
+	-webkit-animation:chu_02 linear;
+	-webkit-animation-duration:1s;
+}
+@-webkit-keyframes chu_02
+{
+0% {
+	top: 2.5rem;
+}
+100% {
+	top: 0rem;
+}
+}
+@keyframes chu_02
+{
+0% {
+	top: 2.5rem;
+}
+100% {
+	top: 0rem;
+}
+}
+.chu_03 {
+	animation:chu_03 linear;
+	animation-duration:1s;
+	-webkit-animation:chu_03 linear;
+	-webkit-animation-duration:1s;
+}
+@-webkit-keyframes chu_03
+{
+0% {
+	top: 7.06rem;
+}
+100% {
+	top: 4.56rem;
+}
+}
+@keyframes chu_03
+{
+0% {
+	top: 7.06rem;
+}
+100% {
+	top: 4.56rem;
+}
+}
+.chu_04 {
+	animation:chu_04 linear;
+	animation-duration:1s;
+	-webkit-animation:chu_04 linear;
+	-webkit-animation-duration:1s;
+}
+@-webkit-keyframes chu_04
+{
+0% {
+	top: 8.71rem;
+}
+100% {
+	top: 6.21rem;
+}
+}
+@keyframes chu_04
+{
+0% {
+	top: 8.71rem;
+}
+100% {
+	top: 6.21rem;
+}
+}
+.chu_05 {
+	animation:chu_05 linear;
+	animation-duration:1s;
+	-webkit-animation:chu_05 linear;
+	-webkit-animation-duration:1s;
+}
+@-webkit-keyframes chu_05
+{
+0% {
+	top: 4.8rem;
+}
+100% {
+	top: 0rem;
+}
+}
+@keyframes chu_05
+{
+0% {
+	top: 4.8rem;
+}
+100% {
+	top: 0rem;
+}
+}
+.hb-bg.act {
+	transform: scale(1.2) translateY(5rem);
+	-webkit-transform: scale(1.2) translateY(5rem);
+}
+.hb-bg.act .quan {
+	transform: translateY(-3.5rem);
+	-webkit-transform: translateY(-3.5rem);
+}
+.tip-2 {
+	font-size: 0.24rem;
+	color: #fefefe;
+	width: 5.8rem;
+	margin: 0 auto;
+	text-align: left;
+	line-height: 1.2;
+	margin-bottom: 0.6rem;
+}
+.goCard {
+	font-size: 0.24rem;
+	color: #fff;
+	text-decoration: underline;
+	text-align: center;
+}
